@@ -1,0 +1,46 @@
+.searchedArea-ul li{
+  /* width: 100% !important; */
+}
+.searchedArea{
+  height: 90vh;
+  overflow: scroll;
+}
+.li{
+  background-color: f8f9fa;
+}
+.searchedArea h4{
+  background-color: #f8f9fa;
+  
+}
+/* .navbar-brand{
+  color: #dc3545 !important;
+} */
+
+.detailArea{
+  /* width: 50%; */
+  background-color: f8f9fa;
+  height: 90vh;
+  overflow: scroll;
+}
+.searchedArea{
+  background-color: f8f9fa;
+  /* width: 50%; */
+}
+.detailArea li {
+  list-style-type: none;
+}
+.navbar a {
+  font-weight: 600;
+}
+.searchedArea li,.instruction,.detailArea li{
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 457px) {
+  .nav-child {
+    justify-content: center !important;
+  }
+  .form-parent{
+    margin-top: 7px;
+  }
+}
